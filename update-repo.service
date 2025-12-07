@@ -1,0 +1,12 @@
+[Unit]
+Description=Update Git repo on every boot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=jacob
+ExecStart=/home/jacob/update_repo_on_boot.sh
+
+[Install]
+WantedBy=multi-user.target

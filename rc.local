@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Run installer only once
+if [ -f /boot/install_update_repo_service.sh ]; then
+    bash /boot/install_update_repo_service.sh
+    mv /boot/install_update_repo_service.sh /boot/install_update_repo_service.done
+fi
+
+exit 0
