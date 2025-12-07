@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+export PATH=/usr/bin:/bin:/usr/local/bin
 
 echo "=== Updating repo on boot ===" >> /home/jacob/update_repo.log
 
