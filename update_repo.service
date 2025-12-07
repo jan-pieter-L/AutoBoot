@@ -1,0 +1,16 @@
+[Unit]
+Description=Update Git repository at boot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=jacob
+WorkingDirectory=/home/jacob
+ExecStart=/home/jacob/update_repo.sh
+StandardOutput=append:/home/jacob/update_repo.log
+StandardError=append:/home/jacob/update_repo.log
+
+[Install]
+WantedBy=multi-user.target
+
