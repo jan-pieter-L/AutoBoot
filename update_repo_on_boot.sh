@@ -3,7 +3,7 @@ set -e
 
 echo "=== Updating repo on boot ===" >> /home/jacob/update_repo.log
 
-REPO_URL="https://github.com/jan-pieter-L/FirstProgram"
+REPO_URL="https://github.com/jan-pieter-L/FirstProgram.git"
 DEST_DIR="/home/jacob/FirstProgram"
 
 # Ensure repo exists; clone if not
