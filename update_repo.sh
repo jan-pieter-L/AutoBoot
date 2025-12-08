@@ -17,7 +17,3 @@ cd "$DEST_DIR"
 git pull
 
 echo "=== Done updating ===" >> /home/jacob/update_repo.log
-
-
-#  Run your Python script
-python3 /home/jacob/FirstProgram/StartHere.py &
