@@ -20,4 +20,4 @@ echo "=== Done updating ===" >> /home/jacob/update_repo.log
 
 
 #  Run your Python script
-python3 /home/jacob/FirstProgram/main.py &
+python3 /home/jacob/FirstProgram/StartHere.py &
